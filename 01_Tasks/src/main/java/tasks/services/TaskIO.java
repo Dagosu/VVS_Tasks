@@ -47,6 +47,7 @@ public class TaskIO {
         try {
             int listLength = dataInputStream.readInt();
             for (int i = 0; i < listLength; i++){
+                int titleLEngth = dataInputStream.readInt();
                 String title = dataInputStream.readUTF();
                 boolean isActive = dataInputStream.readBoolean();
                 int interval = dataInputStream.readInt();
@@ -271,7 +272,8 @@ public class TaskIO {
         int seconds = (interval - (secondsInDay*days + secondsInHour*hours + secondsInMin*minutes));
 
         int[] time = new int[]{days, hours, minutes, seconds};
-        int i = 0, j = time.length-1;
+        int i = 0;
+        int j = time.length-1;
         while (time[i] == 0 || time[j] == 0){
             if (time[i] == 0) i++;
             if (time[j] == 0) j--;
