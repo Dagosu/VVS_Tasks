@@ -12,8 +12,6 @@ public abstract class TaskList implements Iterable<Task>, Serializable  {
     public abstract Task getTask(int index);
     public abstract List<Task> getAll();
 
-    public abstract Iterator<Task> iterator();
-
     public TaskList incoming(Date from, Date to){
         TaskList incomingTasks;
         if (this instanceof ArrayTaskList){

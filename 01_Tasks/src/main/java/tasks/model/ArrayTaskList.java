@@ -138,11 +138,11 @@ public class ArrayTaskList extends TaskList{
     }
     @Override
     protected ArrayTaskList clone() throws CloneNotSupportedException {
-        ArrayTaskList tasks = new ArrayTaskList();
+        ArrayTaskList newTasks = new ArrayTaskList();
         for (int i = 0; i < this.tasks.length; i++){
-            tasks.add(this.getTask(i));
+            newTasks.add(this.getTask(i));
         }
-        return tasks;
+        return newTasks;
 
     }
 
