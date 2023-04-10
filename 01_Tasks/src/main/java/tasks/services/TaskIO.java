@@ -47,7 +47,7 @@ public class TaskIO {
         try {
             int listLength = dataInputStream.readInt();
             for (int i = 0; i < listLength; i++){
-                int titleLEngth = dataInputStream.readInt();
+                // int titleLEngth = dataInputStream.readInt();
                 String title = dataInputStream.readUTF();
                 boolean isActive = dataInputStream.readBoolean();
                 int interval = dataInputStream.readInt();
