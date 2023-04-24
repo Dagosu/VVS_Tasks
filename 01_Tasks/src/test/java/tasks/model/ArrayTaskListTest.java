@@ -36,8 +36,7 @@ class ArrayTaskListTest {
             assert list.size() == 1;
         }
         catch (Exception e) {
-            assert true;
-            System.out.println("Error: start date > end date " + e);
+            assert(e.getMessage().equals("End time cannot be below start time"));
         }
     }
 

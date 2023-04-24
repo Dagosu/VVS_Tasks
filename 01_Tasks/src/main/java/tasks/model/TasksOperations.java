@@ -17,11 +17,26 @@ public class TasksOperations {
         System.out.println(end);
         ArrayList<Task> incomingTasks = new ArrayList<>();
         for (Task t : tasks) {
-            Date nextTime = t.nextTimeAfter(start);
-            if (nextTime != null && (nextTime.before(end) || nextTime.equals(end))) {
-                incomingTasks.add(t);
-                System.out.println(t.getTitle());
+            Date nextTime = t.getStartTime();
+            if (nextTime != null) {
+                System.out.println(nextTime);
+                System.out.println(" inainte ");
+                System.out.println(end);
+                if (nextTime.before(end) || nextTime.equals(end)) {
+                    incomingTasks.add(t);
+                    System.out.println(t.getTitle());
+                }
+                else {
+                    System.out.println("Task " + t.getTitle() + " is not due yet.");
+                }
             }
+            else {
+                System.out.println("Task " + t.getTitle() + " has no scheduled time.");
+            }
+
+        }
+        if (incomingTasks.isEmpty()) {
+            System.out.println("No tasks due between " + start + " and " + end + ".");
         }
         return incomingTasks;
     }
