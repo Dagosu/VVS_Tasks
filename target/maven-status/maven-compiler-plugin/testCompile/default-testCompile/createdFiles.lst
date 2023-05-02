@@ -1,0 +1,7 @@
+tasks/model/TasksServiceIntegrateNoMocksTest.class
+tasks/model/ArrayTaskListTest.class
+tasks/model/ArrayTaskListMockitoTest.class
+tasks/services/DateServiceTest.class
+tasks/model/TaskTest.class
+tasks/services/TasksServiceIntegrateTest.class
+tasks/model/TasksOperationsTest.class

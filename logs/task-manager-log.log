@@ -1,0 +1,104 @@
+2023-02-27 11:33:02 INFO  Main:36 - saved data reading
+2023-02-27 11:33:02 INFO  Main:41 - application start
+2023-02-27 11:33:03 INFO  Controller:74 - Main controller initializing
+2023-02-27 11:33:06 INFO  NewEditController:91 - new/edit window initializing
+2023-02-27 11:33:29 INFO  NewEditController:91 - new/edit window initializing
+2023-02-27 11:34:25 INFO  TaskInfoController:25 - task info window initializing
+2023-02-27 11:34:25 ERROR Controller:127 - error loading task-info.fxml
+2023-02-27 11:34:27 INFO  TaskInfoController:25 - task info window initializing
+2023-03-13 21:39:18 INFO  Main:36 - saved data reading
+2023-03-13 21:39:18 INFO  Main:41 - application start
+2023-03-13 21:39:19 INFO  Controller:74 - Main controller initializing
+2023-03-14 16:29:00 INFO  Main:36 - saved data reading
+2023-03-14 16:29:00 INFO  Main:41 - application start
+2023-03-14 16:29:00 INFO  Controller:74 - Main controller initializing
+2023-03-14 16:37:28 INFO  Main:35 - saved data reading
+2023-03-14 16:37:28 INFO  Main:40 - application start
+2023-03-14 16:37:28 INFO  Controller:74 - Main controller initializing
+2023-03-14 16:37:31 INFO  TaskInfoController:25 - task info window initializing
+2023-03-14 16:37:31 ERROR Controller:127 - error loading task-info.fxml
+2023-03-14 16:37:34 INFO  TaskInfoController:25 - task info window initializing
+2023-03-14 16:37:34 ERROR Controller:127 - error loading task-info.fxml
+2023-03-14 16:37:35 INFO  NewEditController:90 - new/edit window initializing
+2023-03-14 16:37:37 INFO  NewEditController:90 - new/edit window initializing
+2023-03-14 16:37:39 INFO  NewEditController:90 - new/edit window initializing
+2023-03-14 16:37:40 INFO  TaskInfoController:25 - task info window initializing
+2023-04-10 22:24:36 INFO  Main:35 - saved data reading
+2023-04-10 22:24:36 INFO  Main:40 - application start
+2023-04-10 22:24:36 INFO  Controller:74 - Main controller initializing
+2023-04-10 22:25:41 INFO  NewEditController:90 - new/edit window initializing
+2023-04-10 22:48:50 ERROR Task:40 - end time cannot be below start time
+2023-04-10 22:49:44 ERROR Task:40 - end time cannot be below start time
+2023-04-10 22:52:02 ERROR Task:40 - end time cannot be below start time
+2023-04-10 22:52:02 ERROR Task:48 - empty title
+2023-04-10 22:56:08 ERROR Task:40 - end time cannot be below start time
+2023-04-10 22:56:08 ERROR Task:48 - invalid title length
+2023-04-10 22:56:08 ERROR Task:48 - invalid title length
+2023-04-10 22:57:05 ERROR Task:40 - end time cannot be below start time
+2023-04-10 22:57:05 ERROR Task:48 - empty title
+2023-04-10 22:57:05 ERROR Task:52 - invalid title length
+2023-04-10 23:23:36 ERROR Task:40 - end time cannot be below start time
+2023-04-10 23:24:11 ERROR Task:40 - end time cannot be below start time
+2023-04-10 23:24:11 ERROR Task:48 - empty title
+2023-04-10 23:31:20 ERROR Task:52 - invalid title length
+2023-04-10 23:35:00 ERROR Task:40 - end time cannot be below start time
+2023-04-10 23:35:00 ERROR Task:52 - invalid title length
+2023-04-10 23:35:00 ERROR Task:40 - end time cannot be below start time
+2023-04-10 23:35:00 ERROR Task:40 - end time cannot be below start time
+2023-04-10 23:35:00 ERROR Task:48 - empty title
+2023-04-11 18:22:42 ERROR Task:40 - end time cannot be below start time
+2023-04-11 18:22:42 ERROR Task:52 - invalid title length
+2023-04-11 18:22:42 ERROR Task:40 - end time cannot be below start time
+2023-04-11 18:22:42 ERROR Task:40 - end time cannot be below start time
+2023-04-11 18:22:42 ERROR Task:48 - empty title
+2023-04-11 18:23:17 ERROR Task:40 - end time cannot be below start time
+2023-04-11 18:23:17 ERROR Task:52 - invalid title length
+2023-04-11 18:23:17 ERROR Task:40 - end time cannot be below start time
+2023-04-11 18:23:17 ERROR Task:40 - end time cannot be below start time
+2023-04-11 18:23:17 ERROR Task:48 - empty title
+2023-04-11 18:24:26 ERROR Task:40 - end time cannot be below start time
+2023-04-11 18:24:26 ERROR Task:52 - invalid title length
+2023-04-11 18:24:26 ERROR Task:40 - end time cannot be below start time
+2023-04-11 18:24:26 ERROR Task:40 - end time cannot be below start time
+2023-04-11 18:24:26 ERROR Task:48 - empty title
+2023-04-11 18:24:41 ERROR Task:40 - end time cannot be below start time
+2023-04-11 18:24:41 ERROR Task:52 - invalid title length
+2023-04-11 18:24:41 ERROR Task:40 - end time cannot be below start time
+2023-04-11 18:24:41 ERROR Task:40 - end time cannot be below start time
+2023-04-11 18:24:41 ERROR Task:48 - empty title
+2023-04-11 18:27:18 ERROR Task:40 - end time cannot be below start time
+2023-04-11 18:27:18 ERROR Task:52 - invalid title length
+2023-04-11 18:27:18 ERROR Task:40 - end time cannot be below start time
+2023-04-11 18:27:18 ERROR Task:40 - end time cannot be below start time
+2023-04-11 18:27:18 ERROR Task:48 - empty title
+2023-04-11 18:35:15 ERROR Task:40 - end time cannot be below start time
+2023-04-11 18:35:15 ERROR Task:52 - invalid title length
+2023-04-11 18:35:15 ERROR Task:40 - end time cannot be below start time
+2023-04-11 18:35:15 ERROR Task:40 - end time cannot be below start time
+2023-04-11 18:35:15 ERROR Task:48 - empty title
+2023-04-24 19:13:42 ERROR Task:40 - end time cannot be below start time
+2023-04-24 19:13:42 ERROR Task:52 - invalid title length
+2023-04-24 19:13:42 ERROR Task:40 - end time cannot be below start time
+2023-04-24 19:13:42 ERROR Task:40 - end time cannot be below start time
+2023-04-24 19:13:42 ERROR Task:48 - empty title
+2023-04-25 14:27:03 ERROR Task:40 - end time cannot be below start time
+2023-04-25 14:27:03 ERROR Task:52 - invalid title length
+2023-04-25 14:27:03 ERROR Task:40 - end time cannot be below start time
+2023-04-25 14:27:03 ERROR Task:40 - end time cannot be below start time
+2023-04-25 14:27:03 ERROR Task:48 - empty title
+2023-04-25 14:57:02 ERROR Task:40 - end time cannot be below start time
+2023-04-25 14:57:02 ERROR Task:52 - invalid title length
+2023-04-25 14:57:02 ERROR Task:40 - end time cannot be below start time
+2023-04-25 14:57:02 ERROR Task:40 - end time cannot be below start time
+2023-04-25 14:57:02 ERROR Task:48 - empty title
+2023-05-01 01:11:59 ERROR Task:40 - end time cannot be below start time
+2023-05-02 15:02:25 ERROR Task:40 - end time cannot be below start time
+2023-05-02 15:02:25 ERROR Task:52 - invalid title length
+2023-05-02 15:02:25 ERROR Task:40 - end time cannot be below start time
+2023-05-02 15:02:25 ERROR Task:40 - end time cannot be below start time
+2023-05-02 15:02:25 ERROR Task:48 - empty title
+2023-05-02 17:01:25 ERROR Task:40 - end time cannot be below start time
+2023-05-02 17:01:25 ERROR Task:52 - invalid title length
+2023-05-02 17:01:25 ERROR Task:40 - end time cannot be below start time
+2023-05-02 17:01:25 ERROR Task:40 - end time cannot be below start time
+2023-05-02 17:01:25 ERROR Task:48 - empty title
