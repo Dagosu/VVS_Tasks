@@ -13,7 +13,9 @@
   <url>http://www.example.com</url>
 
   <properties>
-    <java.version>11</java.version>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.7</maven.compiler.source>
+    <maven.compiler.target>1.7</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <junit-plaform.version>5.6.0</junit-plaform.version>
   </properties>
@@ -116,9 +118,9 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.8.0</version>
         <configuration>
-          <release>11</release>  <!--or <release>10</release>-->
+          <source>8</source>
+          <target>8</target>
         </configuration>
       </plugin>
       <plugin>
